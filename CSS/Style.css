@@ -1,0 +1,466 @@
+body{
+    padding-top: 56px;
+    max-width: 1124px;
+    margin:auto;
+}
+
+/*Header*/
+header{
+    top: 0px;
+    position: fixed;
+    width: 100%;
+}
+.header{
+    box-sizing: border-box;
+    max-width: 1124px;
+    height: 72px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.navbar_menu{
+    display:flex; 
+    align-items: center;
+}
+.SignIn{
+    width: 78px;
+    height: 40px;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+    color: #1D1D1D;
+    margin-right: 27px;
+}
+/*Header*/
+
+.main-page{
+    width:auto;
+    margin-top:16px;
+    padding-top:56px;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+}
+.search{
+    background: #757575;
+     margin-bottom: 56px;
+     height: 0,1px;
+}
+input[type="text"]{
+    background: #FFFFFF;
+    border: 0px;
+    width: 100%;
+    height: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #626262;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.container{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.restaurants{
+    margin-bottom: 32px;
+}
+.restaurant-choices{
+    display: flex; 
+    justify-content: space-around;
+}
+.inscription{
+    margin-top: 16px; 
+    margin-bottom: 0px; 
+    width: 240px;
+    text-align: left;
+}
+.kitchen{
+    width:max-content;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+    margin-top: 4px;
+    margin-bottom: 4px;  
+}
+.time{
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #1D1D1D;
+    margin-bottom: 32px;
+}
+h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    color: #1D1D1D;
+}
+h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
+}
+.restaurant-choice{
+    background:#FFFFFF;
+    border: 0px;
+    text-decoration: none;
+}
+
+/*Footer*/
+footer{
+    background: #262626;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.white-logo{
+    margin-top: 32px; 
+    margin-bottom: 32px;
+}
+.footer-line{
+    background: #FFFFFF; 
+    height: 0,1px;
+}
+.addition{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 32px;
+}
+.different{
+    margin-right: 100px;
+}
+.lang{
+    display:flex;
+}
+.world{
+    background: #3B3B3B; 
+    height: 40px; 
+    width: 32px; 
+    display:flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+select{
+    border: 0px;
+    width: 227px;
+    height: 40px;
+    margin-bottom: 33px;
+    background: #3B3B3B;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+option{
+    padding-left: 48px;
+    width: 227px;
+    height: 40px;
+    margin-bottom: 33px;
+    background: #3B3B3B;
+    border-radius: 2px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.socials{
+    display: flex; 
+    justify-content: flex-start;
+}
+.social{
+    margin-top: 20px; 
+    margin-right: 16px;
+}
+.infos{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around;
+}
+.info{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom:32px;
+}
+.rights{
+    display: flex; 
+    align-items: center;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    position: relative;
+}
+.right{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+.scroll-up-button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 8px;
+    bottom: 16px;
+    background: #59BD5A;
+    border-radius: 2px;
+}
+/*Footer*/
+
+.chosen{
+    margin-top: 16px;
+    display: flex;
+    background:url(../Content/RestaurantBackground.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 364px;
+    width:100%;
+    align-items:center;
+    justify-content:left;
+}
+.restaurant{
+    background:#fff;
+    padding-left:4%;
+    padding-right:4%;
+    padding-top:4%;
+    padding-bottom:4%;
+
+    box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+    border-radius: 2px;
+}
+.name{
+    display:flex;
+    justify-content: center;
+    width:max-content;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: flex-end;
+    color: #1D1D1D;
+}
+.price-and-time{
+    display:flex;
+    align-items:center;
+}
+.time-button{
+    color: #fff;
+    background: #262626;
+    border-radius: 16px;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:16px;
+    padding-right:16px;
+}
+.menu{
+    height:80px;
+    
+    align-items:center;
+    background: #FFFFFF;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+}
+.dish-type{
+    border:0px;
+    background: #fff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+
+    margin-left:20px;
+    margin-right:20px;
+
+    cursor:pointer;
+}
+button.dish-type:focus{
+    color: #327430;
+}
+.chosen-dish-type{
+    padding-top:56px;
+    padding-bottom:56px;
+    border-left: 1px solid rgba(117, 117, 117, 0.2);
+    border-right: 1px solid rgba(117, 117, 117, 0.2);
+}
+.chosen-dish-type hr{
+    width:50px; 
+}
+.dishes{
+    margin-top:32px;
+    margin-left: 0px;
+}
+.dish{
+    display:flex;
+    justify-content: space-between;
+    mix-blend-mode: normal;
+    height:160px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-bottom:4%;
+    cursor: pointer;
+}
+.dish-inscription{
+    margin-top:16px;
+    margin-left:16px;
+    margin-bottom:16px;
+}
+.dish-price{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    color: #1D1D1D;
+    margin-top:60px;
+}
+/*Только для десктопа*/
+@media screen and (min-width: 1124px) {
+    .main-page{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .restaurant{
+        margin-left: 80px;
+    }
+    .chosen-dish-type{
+        padding-left:80px;
+    }
+    .menu{
+        padding-left:60px;
+    }
+}
+/*Всё кроме десктопа*/
+@media screen and (max-width: 1123px) {
+    .main-page{
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+}
+/*Только для планшетов*/
+@media screen and (max-width: 1123px) and (min-width: 768px) { 
+    .restaurant{
+        margin-left: 8px;
+    }
+    .chosen-dish-type{
+        padding-left:8px;
+    }
+}
+/*Всё кроме телефона*/
+@media screen and (min-width: 768px){
+    .rights{
+        justify-content: space-around;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .price-and-time{
+        justify-content: space-around;
+        margin-top:62px;
+    }
+    .menu{
+        display:flex;
+    }
+    .chosen-dish-type hr{
+        display:none;
+    }
+    .dish{
+        border: 1px solid rgba(117, 117, 117, 0.2);
+    }
+}
+/*Только для телефона*/
+@media screen and (max-width: 767px){
+    .addition{
+        flex-direction: column;
+    }
+    .different{
+        margin-bottom: 20px;
+    }
+    .info{
+        margin-top: 11.5px;
+        margin-bottom: 11.5px;
+    }
+    .rights{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items:flex-start;
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+    .right{
+        margin-top:12px;
+        margin-bottom:12px;
+    }
+    .restaurant{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .price-and-time{
+        justify-content: space-around;
+        flex-direction:column;
+        margin-top:40px;
+    }
+    .time-button{
+        margin-top: 16px;
+    }
+    .menu{
+        display: none;
+    }
+    .chosen-dish-type h1{
+        text-align: center;
+    }
+    .chosen-dish-type hr{
+        display: block;
+    }
+    .dish{
+        border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+    }
+}
